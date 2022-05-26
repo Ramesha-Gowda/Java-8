@@ -1,4 +1,4 @@
-package com.learn.java;
+package lambdas;
 
 public class RunnableLambdaExample {
     public static void main(String[] args) {

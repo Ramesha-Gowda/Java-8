@@ -17,6 +17,13 @@ public class Student {
         this.gender = gender;
         this.activities = activities;
     }
+    //Constructor
+    public Student() {
+
+    }
+    public Student(String s) {
+        this.name=s;
+    }
 
     public String getGender() {
         return gender;
@@ -50,7 +57,9 @@ public class Student {
         this.gpa = gpa;
     }
 
-
+    public void printActivities(){
+        System.out.println(activities);
+    }
 
     public List<String> getActivities() {
         return activities;
